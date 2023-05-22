@@ -112,3 +112,11 @@ When(/^I search for the "([^"]*)"$/, (args1) => {
 		cy.typeAText(sel.searchField, `${args1}`)
 	})
 });
+
+
+Then(/^I should see the following buttons$/, (datatable) => {
+	datatable['hashes']().forEach((row)=>{
+		cy.contains(row.buttonName).should('exist').and('contain', row.buttonName)
+	})
+});
+

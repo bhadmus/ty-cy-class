@@ -1,0 +1,32 @@
+{
+    "auth": {
+      "username": "ademolabhadmus_EthlBF",
+      "access_key": "qaLfdQnq7yJaNNj4wdNc"
+    },
+    "browsers": [{
+        "browser": "chrome",
+        "os": "Windows 10",
+        "versions": ["latest"]
+      },
+      {
+        "browser": "edge",
+        "os": "OS X Catalina",
+        "versions": ["latest"]
+      }
+    ],
+    "run_settings": {
+      "cypress_config_file": "./cypress.config.ts",
+      "cypress_version": "12.3",
+      "npm_dependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^17.1.1",
+        "@cypress/browserify-preprocessor": "^3.0.2",
+        "cypress": "^12.12.0",
+        "typescript": "^5.0.4"
+      },
+      "project_name": "Cypress Run Time",
+      "build_name": "Build no: 1",
+      "parallels": 5,
+      "exclude": []
+    }
+  }
+  
