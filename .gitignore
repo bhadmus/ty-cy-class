@@ -5,6 +5,3 @@ cypress/videos/
 .idea/
 .DS_Store
 dist/
-log/
-npm_install_debug.log
-results/
